@@ -1,0 +1,218 @@
+.general-section {
+  width: 100%;
+   background: #eef4e8;
+  padding: 70px 20px;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.general-heading {
+  max-width: 750px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.general-heading span {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #1d4ed8;
+}
+
+.general-heading h2 {
+  margin: 12px 0 15px;
+  font-size: 38px;
+  line-height: 1.2;
+  color: #172554;
+}
+
+.general-heading h2 strong {
+  color: #1d4ed8;
+}
+
+.general-heading p {
+  margin: 0 auto;
+  max-width: 650px;
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+/* =========================
+   GRID
+========================= */
+
+.general-grid {
+  max-width: 1150px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.general-card {
+  background: #ffffff;
+
+  border: 1px solid #dbeafe;
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.general-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 15px 35px rgba(30, 64, 175, 0.12);
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.general-image {
+  width: 100%;
+  height: 230px;
+
+  overflow: hidden;
+
+  background: #f1f5f9;
+}
+
+.general-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition: transform 0.4s ease;
+}
+
+.general-card:hover .general-image img {
+  transform: scale(1.05);
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.general-content {
+  padding: 25px;
+}
+
+.general-content h3 {
+  margin: 0 0 12px;
+
+  font-size: 21px;
+  font-weight: 600;
+
+  color: #172554;
+}
+
+.general-content p {
+  margin: 0 0 20px;
+
+  color: #64748b;
+
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.general-button {
+  border: none;
+  background: transparent;
+
+  padding: 0;
+
+  color: #1d4ed8;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  transition: gap 0.2s ease;
+}
+
+.general-button:hover {
+  gap: 12px;
+}
+
+.general-button span {
+  font-size: 18px;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .general-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .general-section {
+    padding: 50px 16px;
+  }
+
+  .general-heading {
+    margin-bottom: 35px;
+  }
+
+  .general-heading h2 {
+    font-size: 30px;
+  }
+
+  .general-heading p {
+    font-size: 14px;
+  }
+
+  .general-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .general-image {
+    height: 220px;
+  }
+
+}

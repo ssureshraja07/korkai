@@ -1,0 +1,303 @@
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section {
+  width: 100%;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 70px 20px 30px;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.about-container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.about-header {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.about-header h2 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 700;
+  color: #f5b900;
+  letter-spacing: 1px;
+}
+
+.about-line {
+  width: 65px;
+  height: 4px;
+  background: #f5b900;
+  margin: 15px auto 20px;
+  border-radius: 5px;
+}
+
+.about-header p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #d1d5db;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+/* =========================
+   ABOUT CONTENT
+========================= */
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin-bottom: 55px;
+}
+
+
+/* =========================
+   COLUMNS
+========================= */
+
+.about-column {
+  width: 100%;
+}
+
+.about-column h3 {
+  margin: 0 0 20px;
+  color: #f5b900;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.about-column p {
+  margin: 0 0 18px;
+  color: #d1d5db;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact-column {
+  padding-left: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-item span {
+  width: 25px;
+  flex-shrink: 0;
+  font-size: 19px;
+}
+
+.contact-item p {
+  margin: 0;
+  color: #d1d5db;
+  font-size: 16px;
+  line-height: 1.8;
+  word-break: break-word;
+}
+
+
+/* =========================
+   SOCIAL
+========================= */
+
+.social-section {
+  border-top: 1px solid #374151;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.social-section h3 {
+  margin: 0 0 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.social-links a {
+  color: #d1d5db;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #f5b900;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.about-footer {
+  border-top: 1px solid #374151;
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.about-footer p {
+  margin: 0 0 10px;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f5b900;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .about-section {
+    padding: 60px 25px 25px;
+  }
+
+  .about-content {
+    gap: 45px;
+  }
+
+  .contact-column {
+    padding-left: 0;
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .about-section {
+    padding: 50px 20px 25px;
+  }
+
+  .about-header {
+    margin-bottom: 40px;
+  }
+
+  .about-header h2 {
+    font-size: 30px;
+  }
+
+  .about-header p {
+    font-size: 15px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .about-column h3 {
+    font-size: 23px;
+  }
+
+  .about-column p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .contact-column {
+    padding-left: 0;
+  }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  .about-section {
+    padding: 45px 16px 20px;
+  }
+
+  .about-header h2 {
+    font-size: 27px;
+  }
+
+  .about-header p {
+    font-size: 14px;
+  }
+
+  .about-column h3 {
+    font-size: 21px;
+  }
+
+  .contact-item {
+    gap: 10px;
+  }
+
+  .contact-item p {
+    font-size: 14px;
+  }
+
+  .social-links {
+    gap: 20px;
+  }
+
+  .social-links a {
+    font-size: 14px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}

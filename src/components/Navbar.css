@@ -1,0 +1,165 @@
+
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+/* Logo */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-logo img {
+  width: 115px;
+  height: 58px;
+
+  object-fit: contain;
+  display: block;
+} 
+/* Navigation */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #111827;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  color: #c59a3d;
+}
+
+/* Hamburger */
+
+.navbar-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  color: #000000;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-hamburger svg {
+  stroke: #000000;
+  color: #000000;
+}
+
+/* Overlay */
+
+.navbar-overlay {
+  display: none;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .navbar-container {
+    height: 64px;
+    padding: 0 16px;
+  }
+
+  .navbar-logo img {
+    width: 95px;
+    height: 52px;
+  }
+
+  .navbar-hamburger {
+    display: flex;
+    z-index: 1002;
+  }
+
+  .nav-links {
+    display: none;
+
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+
+    background: white;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 0;
+
+    padding: 12px 20px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+
+    z-index: 1001;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+    padding: 14px 0;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 16px;
+  }
+
+  .navbar-overlay.open {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.15);
+    z-index: 999;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .navbar-logo img {
+    width: 85px;
+    height: 48px;
+  }
+
+}
