@@ -46,7 +46,7 @@ const spicyProducts = [
 
 function SpicyProducts() {
   return (
-    <section className="spicy-section reveal-section" id="spices">
+    <section className="spicy-section" id="spices">
 
       {/* Heading */}
       <div className="spicy-heading">

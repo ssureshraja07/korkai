@@ -17,14 +17,14 @@ export default function CategoryNav({ currentTitle }) {
         <div className="category-breadcrumbs">
           <Link to="/">Home</Link>
           <span className="separator">/</span>
-          <Link to="/categories">ProductCategories</Link>
+          <Link to="/#categories">Product Categories</Link>
           <span className="separator">/</span>
           <span className="current">{currentTitle}</span>
         </div>
 
         {/* Category switcher pills */}
         <div className="category-pills">
-          <Link to="/categories" className="category-pill back-btn">
+          <Link to="/#categories" className="category-pill back-btn">
             ← All Categories
           </Link>
           {categories.map((cat) => (
@@ -42,3 +42,4 @@ export default function CategoryNav({ currentTitle }) {
     </div>
   );
 }
+

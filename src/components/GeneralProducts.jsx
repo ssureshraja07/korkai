@@ -38,7 +38,7 @@ const generalProducts = [
 
 function GeneralProducts() {
   return (
-    <section className="general-section reveal-section" id="general-products">
+    <section className="general-section" id="general-products">
 
       {/* Heading */}
       <div className="general-heading">

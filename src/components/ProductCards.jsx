@@ -47,7 +47,7 @@ const products = [
 
 function ProductCards() {
   return (
-    <section className="products-section reveal-section" id="categories">
+    <section className="products-section" id="categories">
 
       {/* Heading */}
       <div className="products-heading">

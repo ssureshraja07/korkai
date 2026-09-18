@@ -17,7 +17,7 @@ export default function Navbar() {
     setMenuOpen(false);
   };
 
-  const handleNavClick = (type, target) => {
+  const handleNavClick = (type) => {
     closeMenu();
 
     if (type === "home") {
@@ -33,16 +33,19 @@ export default function Navbar() {
           catElem.scrollIntoView({ behavior: "smooth" });
         }
       } else {
-        navigate("/categories");
+        // Navigate to home page and scroll to #categories section
+        navigate("/#categories");
       }
     } else if (type === "about") {
       navigate("/about");
     } else if (type === "contact") {
       const contactElem = document.getElementById("contact");
       if (contactElem) {
+        // Already on a page that has the footer/contact section
         contactElem.scrollIntoView({ behavior: "smooth" });
       } else {
-        navigate("/contact");
+        // Navigate to home page and scroll to #contact (footer)
+        navigate("/#contact");
       }
     }
   };
