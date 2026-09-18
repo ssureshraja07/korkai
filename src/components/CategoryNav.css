@@ -1,0 +1,114 @@
+/* =====================================
+   CATEGORY NAVIGATION & BREADCRUMB BAR
+===================================== */
+
+.category-nav-bar {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 16px 20px;
+  position: sticky;
+  top: 70px;
+  z-index: 90;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.category-nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.category-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.category-breadcrumbs a {
+  color: #64748b;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.category-breadcrumbs a:hover {
+  color: #c49a3d;
+}
+
+.category-breadcrumbs span.separator {
+  color: #cbd5e1;
+}
+
+.category-breadcrumbs span.current {
+  color: #062b4c;
+  font-weight: 600;
+}
+
+/* Category Pills */
+.category-pills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.category-pill {
+  padding: 7px 16px;
+  font-size: 13.5px;
+  font-weight: 600;
+  border-radius: 20px;
+  text-decoration: none;
+  background: #f1f5f9;
+  color: #475569;
+  transition: all 0.25s ease;
+  border: 1px solid transparent;
+}
+
+.category-pill:hover {
+  background: #e2e8f0;
+  color: #062b4c;
+}
+
+.category-pill.active {
+  background: #062b4c;
+  color: #f5b900;
+  border-color: #062b4c;
+}
+
+.category-pill.back-btn {
+  background: rgba(196, 154, 61, 0.12);
+  color: #926d1d;
+  font-weight: 700;
+}
+
+.category-pill.back-btn:hover {
+  background: #c49a3d;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .category-nav-bar {
+    top: 64px;
+    padding: 12px 16px;
+  }
+  .category-nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .category-pills {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    flex-wrap: nowrap;
+  }
+  .category-pill {
+    white-space: nowrap;
+  }
+}

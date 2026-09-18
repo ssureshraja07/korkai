@@ -33,7 +33,7 @@ function Home() {
           <div className="home-buttons">
 
             <a
-              href="#general-products"
+              href="#categories"
               className="home-primary-button"
             >
               Explore Products
@@ -41,7 +41,7 @@ function Home() {
             </a>
 
             <a
-              href="#about"
+              href="#contact"
               className="home-secondary-button"
             >
               Contact Us

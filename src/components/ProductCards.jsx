@@ -38,16 +38,16 @@ const products = [
   },
    {
     id: 5,
-    name: "Coco Briquttes",
+    name: "Coco Briquettes",
     image: cocoBriquttes,
     description:
-      "Quality coco-based grow bags designed for efficient plant growth and professional cultivation.",
+      "Compact, compressed coco peat briquettes ideal for home gardening, seed germination, and potting mixes.",
   },
 ];
 
 function ProductCards() {
   return (
-    <section className="products-section reveal-section" id="products2">
+    <section className="products-section reveal-section" id="categories">
 
       {/* Heading */}
       <div className="products-heading">
