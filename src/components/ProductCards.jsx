@@ -2,7 +2,7 @@ import "./ProductCards.css";
 
 import cocoFibre from "../images/coco-fibre.jpeg";
 import cocoHuskChips from "../images/coco-husk-chips.jpeg";
-import cocoPeat from "../images/coco-peat.jpeg";
+import cocoPeat from "../images/coco-peat-1.jpeg";
 import growBags from "../images/grow-bags.jpeg";
 import cocoBriquttes from "../images/coco-briquttes.jpeg"
 

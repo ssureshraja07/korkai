@@ -23,7 +23,7 @@ function Home() {
             <h1 className="text-5xl font-extrabold leading-tight text-[#062b4c]">
               Trading Beyond
               <br />
-              Borders
+              Borders 
             </h1>
 
             <p className="mt-6 text-lg leading-relaxed text-[#172f40]">

@@ -7,15 +7,6 @@ import redChilliImg from "../images/spices.jpeg";
 
 const categories = [
   {
-    id: "general-products",
-    title: "General Products",
-    route: "/general-products",
-    image: pappadImg,
-    badge: "4 Items",
-    description:
-      "Explore everyday authentic food essentials including traditional Indian pickles, crispy pappad, salt, and flavorful chutneys.",
-  },
-  {
     id: "coir-products",
     title: "Coir Products",
     route: "/coir-products",
@@ -25,14 +16,24 @@ const categories = [
       "Natural and durable eco-friendly coir solutions including Coco Peat, Coco Fibre, Husk Chips, Grow Bags, and Briquettes.",
   },
   {
+    id: "general-products",
+    title: "General Products",
+    route: "/general-products",
+    image: pappadImg,
+    badge: "4 Items",
+    description:
+      "Explore everyday authentic food essentials including traditional Indian pickles, crispy pappad, salt, and flavorful chutneys.",
+  },
+  
+  {
     id: "spicy-products",
-    title: "Spice",
+    title: "Spices",
     route: "/spicy-products",
     image: redChilliImg,
     badge: "5 Items",
     description:
       "Aromatic, authentic Indian spices including Cumin, vibrant Red Chilli, bold Black Pepper, natural Turmeric, and sweet Cinnamon.",
-  },
+  }
 ];
 
 export default function ProductCategories() {

@@ -25,7 +25,7 @@ function Home() {
           <p className="home-description">
             Your trusted source for premium coir products,
             authentic Indian spices, and carefully selected
-            food products from Thoothukudi.
+            food products from  India.
           </p>
 
 
