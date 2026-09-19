@@ -26,7 +26,7 @@ const categories = [
   },
   {
     id: "spicy-products",
-    title: "Spicy Products",
+    title: "Spice",
     route: "/spicy-products",
     image: redChilliImg,
     badge: "5 Items",

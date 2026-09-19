@@ -1,4 +1,4 @@
- import "./Home.css";
+import "./Home.css";
 import korkaiLogo from "../images/korkai-logo.jpeg";
 
 function Home() {
@@ -15,11 +15,11 @@ function Home() {
           </div>
 
           <h1>
-            Connecting
+            Trading
             <br />
-            <span>Tamil Nadu</span>
+            <span>Beyond</span>
             <br />
-            to the World
+            Borders
           </h1>
 
           <p className="home-description">

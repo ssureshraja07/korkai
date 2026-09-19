@@ -75,6 +75,10 @@ export default function Footer() {
                 <a href="mailto:nithishmuniasamy78@gmail.com">
                   nithishmuniasamy78@gmail.com
                 </a>
+                <br />
+                <a href="mailto:trade@korkaiexportimport.com">
+                  trade@korkaiexportimport.com
+                </a>
               </p>
             </div>
           </div>

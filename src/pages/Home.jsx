@@ -21,9 +21,9 @@ function Home() {
           <div className="ml-[10%] max-w-xl">
 
             <h1 className="text-5xl font-extrabold leading-tight text-[#062b4c]">
-              Connecting Tamil Nadu
+              Trading Beyond
               <br />
-              to the World
+              Borders
             </h1>
 
             <p className="mt-6 text-lg leading-relaxed text-[#172f40]">

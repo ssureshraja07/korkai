@@ -2,10 +2,10 @@ import "./AboutUs.css";
 
 function AboutUs() {
   return (
-  <section
-  className="about-section reveal-section"
-  id="about"
->
+    <section
+      className="about-section reveal-section"
+      id="about"
+    >
 
       <div className="about-container">
 
@@ -63,6 +63,7 @@ function AboutUs() {
             <div className="contact-item">
               <span>✉️</span>
               <p>nithishmuniasamy78@gmail.com</p>
+              <p>trade@korkaiexportimport.com</p>
             </div>
 
           </div>

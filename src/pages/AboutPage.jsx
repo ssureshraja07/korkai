@@ -171,6 +171,10 @@ export default function AboutPage() {
                 <a href="mailto:nithishmuniasamy78@gmail.com">
                   nithishmuniasamy78@gmail.com
                 </a>
+                <br />
+                <a href="mailto:trade@korkaiexportimport.com">
+                  trade@korkaiexportimport.com
+                </a>
               </p>
               <p style={{ marginTop: "6px", fontSize: "13px", color: "#94a3b8" }}>
                 Responses typically within 24 business hours.
