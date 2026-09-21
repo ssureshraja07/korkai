@@ -15,15 +15,7 @@ const categories = [
     description:
       "Natural and durable eco-friendly coir solutions including Coco Peat, Coco Fibre, Husk Chips, Grow Bags, and Briquettes.",
   },
-  {
-    id: "general-products",
-    title: "General Products",
-    route: "/general-products",
-    image: pappadImg,
-    badge: "4 Items",
-    description:
-      "Explore everyday authentic food essentials including traditional Indian pickles, crispy pappad, salt, and flavorful chutneys.",
-  },
+ 
   
   {
     id: "spicy-products",
@@ -33,7 +25,16 @@ const categories = [
     badge: "5 Items",
     description:
       "Aromatic, authentic Indian spices including Cumin, vibrant Red Chilli, bold Black Pepper, natural Turmeric, and sweet Cinnamon.",
-  }
+  },
+   {
+    id: "general-products",
+    title: "General Products",
+    route: "/general-products",
+    image: pappadImg,
+    badge: "4 Items",
+    description:
+      "Explore everyday authentic food essentials including traditional Indian pickles, crispy pappad, salt, and flavorful chutneys.",
+  },
 ];
 
 export default function ProductCategories() {
@@ -58,7 +59,7 @@ export default function ProductCategories() {
               <div className="category-image-wrap">
                 <img src={cat.image} alt={cat.title} />
                 <div className="category-image-overlay">
-                  <span className="category-badge">{cat.badge}</span>
+                 
                 </div>
               </div>
 

@@ -39,7 +39,7 @@ export default function Footer() {
                 <Link to="/coir-products">Coir Products</Link>
               </li>
               <li>
-                <Link to="/spicy-products">Spicy Products</Link>
+                <Link to="/spicy-products">Spices</Link>
               </li>
               <li>
                 <Link to="/about">About Us</Link>
