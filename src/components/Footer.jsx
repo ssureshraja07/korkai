@@ -72,10 +72,6 @@ export default function Footer() {
             <div className="footer-contact-item">
               <span className="footer-contact-icon">✉️</span>
               <p>
-                <a href="mailto:nithishmuniasamy78@gmail.com">
-                  nithishmuniasamy78@gmail.com
-                </a>
-                <br />
                 <a href="mailto:trade@korkaiexportimport.com">
                   trade@korkaiexportimport.com
                 </a>
