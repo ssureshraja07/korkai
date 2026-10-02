@@ -73,7 +73,7 @@ export default function Footer() {
               <span className="footer-contact-icon">✉️</span>
               <p>
                 <a href="mailto:trade@korkaiexportimport.com">
-                  trade@korkaiexportimport.com
+                  sales@korkaiexportimport.com
                 </a>
               </p>
             </div>

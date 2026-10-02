@@ -168,12 +168,10 @@ export default function AboutPage() {
               <div className="icon">✉️</div>
               <h3>Email Inquiries</h3>
               <p>
-                <a href="mailto:nithishmuniasamy78@gmail.com">
-                  nithishmuniasamy78@gmail.com
-                </a>
+                
                 <br />
                 <a href="mailto:trade@korkaiexportimport.com">
-                  trade@korkaiexportimport.com
+                  sales@korkaiexportimport.com
                 </a>
               </p>
               <p style={{ marginTop: "6px", fontSize: "13px", color: "#94a3b8" }}>
