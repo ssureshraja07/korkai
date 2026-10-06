@@ -62,8 +62,7 @@ function AboutUs() {
 
             <div className="contact-item">
               <span>✉️</span>
-              <p>nithishmuniasamy78@gmail.com</p>
-              <p>trade@korkaiexportimport.com</p>
+              <p>trade@korkaiexportimport.in</p>
             </div>
 
           </div>

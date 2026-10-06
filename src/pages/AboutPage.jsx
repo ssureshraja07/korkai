@@ -171,7 +171,7 @@ export default function AboutPage() {
                 
                 <br />
                 <a href="mailto:trade@korkaiexportimport.com">
-                  sales@korkaiexportimport.com
+                  sales@korkaiexportimport.in
                 </a>
               </p>
               <p style={{ marginTop: "6px", fontSize: "13px", color: "#94a3b8" }}>
